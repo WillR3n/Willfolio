@@ -31,7 +31,7 @@ export const projects: projects[] = [
     id: 3,
     title: "BB-TV",
     description: "So if you agree, let’s work together.",
-    image: "/HOME-BB 1.PNG",
+    image: "/Home-BB.png",
     link: "https://weatherapp.com",
     aosDescription : "zoom-in-left" 
   },
