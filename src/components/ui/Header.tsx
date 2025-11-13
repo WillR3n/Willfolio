@@ -13,14 +13,14 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="fixed top-0 left-0 flex w-full h-auto items-center relative justify-between lg:my-5 py-5 w-full h-auto text-white z-50">
+    <header className="fixed top-0 left-0 flex w-full h-auto items-center relative justify-between lg:my-5 py-1 w-full h-auto text-white z-50">
       {/*Logo*/}
       {isDesktop ? (
         <h1 className="font-bold text-xl sm:text-4xl md:text-5xl lg:text-4xl 2xl:text-5xl">
           My<span className="text-[#868484]">Folio</span>.
         </h1>
       ) : (
-        <h1 className=" font-bold  text-4xl px-3">
+        <h1 className=" font-bold  text-4xl">
           My<span className="text-[#868484]">Folio</span>.
         </h1>
       )}
