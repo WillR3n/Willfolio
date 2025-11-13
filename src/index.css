@@ -7,10 +7,6 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-* {
-  outline: 1px solid rgba(255, 0, 0, 0.2);
-}
-
 html, body {
   margin: 0;
   padding: 0;
