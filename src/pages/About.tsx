@@ -1,7 +1,7 @@
 import Header from "../components/ui/Header";
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import photo from "../assets/Profil.png";
+import photo from "../../public/Profil.png";
 
 export default function About() {
   const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 830);
