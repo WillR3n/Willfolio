@@ -3,11 +3,11 @@ import { projects } from "../../data/projects";
 
 
 const logos = [
-  "public/Html 5.png",
-  "public/CSS3.png",
-  "public/React.png",
-  "public/JavaScript.png",
-  "public/GitHub.png",
+  "/Html 5.png",
+  "/CSS3.png",
+  "/React.png",
+  "/JavaScript.png",
+  "/GitHub.png",
 ];
 
 export default function Projects() {
