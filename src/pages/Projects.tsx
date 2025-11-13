@@ -12,7 +12,7 @@ const logos = [
 
 export default function Projects() {
   return (
-    <section className="bg-black text-white py-5 px-1 md:px-10">
+    <section className="bg-black text-white md:py-10 px-1 md:px-10">
       <h2 className="text-center text-2xl md:text-4xl italic underline mb-12">
         Projects
       </h2>
@@ -28,16 +28,16 @@ export default function Projects() {
       </div>
 
       {/* Technologies icons */}
-      <div className="overflow-hidden py-10 md:py-20 bg-transparent">
+      <div className="overflow-hidden py-8 md:py-20 bg-transparent">
       <div
-         className="md:flex flex gap-5 md:gap-50 md:py-10 py-10 justify-center"
+         className="md:flex flex gap-7 md:gap-50 md:py-10 py-2 justify-center"
       >
         {[...logos].map((logo, index) => (
           <img
             key={index}
             src={logo}
             alt={`logo-${index}`}
-            className=" w-10 h-10 md:w-30 md:h-30 object-contain grayscale hover:grayscale-0 transition duration-300"
+            className=" w-15 h-15 md:w-30 md:h-30 object-contain grayscale hover:grayscale-0 transition duration-300"
           />
         ))}
       </div>

@@ -110,7 +110,7 @@ export default function ProjectCard({
       <div
         className="text-center md:text-left "
       >
-        <p className="italic text-base w-95 py-5">{description}</p>
+        <p className="italic text-base w-95 py-10 md:py-5">{description}</p>
       </div>
     </div>
     )}

@@ -58,7 +58,7 @@ export default function About() {
               transition={{ duration: 1, ease: "easeOut" }}
               src={photo}
               alt="MyProfile"
-              className="w-250 h-250 rounded-full object-cover md:w-[620px] md:h-[620px] md:rounded-none"
+              className="w-[50px] h-50 rounded-full object-cover md:w-[620px] md:h-[620px] md:rounded-none"
             />
           </div>
         </section>
@@ -68,9 +68,12 @@ export default function About() {
             <Header></Header>
             <img className="w-full h-auto py-2" src={photo} alt="MyProfile" />
             <div className="mx-auto py-8">
-              <motion.p initial={{ x: -200, opacity: 0 }} // Position de départ : hors écran à gauche
-              animate={{ x: 0, opacity: 1 }} // Arrive à sa place, visible
-              transition={{ duration: 0.8, ease: "easeOut" }} className="text-white text-2xl leading-10 items-center text-center ">
+              <motion.p
+                initial={{ x: -200, opacity: 0 }} // Position de départ : hors écran à gauche
+                animate={{ x: 0, opacity: 1 }} // Arrive à sa place, visible
+                transition={{ duration: 0.8, ease: "easeOut" }}
+                className="text-white text-2xl leading-10 items-center text-center "
+              >
                 I'm{" "}
                 <span className="text-[#868484]">FOGOU TEFOUE WILLIAM,</span>{" "}
                 <br /> a{" "}
@@ -91,8 +94,6 @@ export default function About() {
                 Curiosity, Imagination, Creativity
               </motion.p>
             </div>
-
-            
           </div>
         </section>
       )}
