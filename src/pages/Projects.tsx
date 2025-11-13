@@ -28,9 +28,9 @@ export default function Projects() {
       </div>
 
       {/* Technologies icons */}
-      <div className="overflow-hidden md:py-35 bg-transparent">
+      <div className="overflow-hidden py-10 md:py-20 bg-transparent">
       <div
-         className="md:flex flex gap-10 md:gap-50 md:py-10 py-10 justify-center"
+         className="md:flex flex gap-5 md:gap-50 md:py-10 py-10 justify-center"
       >
         {[...logos].map((logo, index) => (
           <img

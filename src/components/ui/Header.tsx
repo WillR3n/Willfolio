@@ -20,7 +20,7 @@ export default function Header() {
           My<span className="text-[#868484]">Folio</span>.
         </h1>
       ) : (
-        <h1 className=" font-bold  text-4xl">
+        <h1 className=" font-bold  text-4xl px-3">
           My<span className="text-[#868484]">Folio</span>.
         </h1>
       )}

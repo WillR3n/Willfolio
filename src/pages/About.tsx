@@ -15,7 +15,7 @@ export default function About() {
   return (
     <main>
       {isDesktop ? (
-        <section className="flex flex-col bg-black text-white min-h-screen md:flex-row md:justify-between md:items-center px-1 md:px-20">
+        <section className="flex flex-col bg-black text-white min-h-screen md:flex-row md:justify-between md:items-center px-1  md:px-20">
           {/* Partie gauche (texte) */}
           <div className="py-8 md:py-0 md:w-1/2">
             <Header />
@@ -63,7 +63,7 @@ export default function About() {
           </div>
         </section>
       ) : (
-        <section>
+        <section className="bg-black text-white min-h-screen">
           <div className="relative justify-between">
             <Header></Header>
             <img className="w-full h-auto py-2" src={photo} alt="MyProfile" />
