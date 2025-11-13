@@ -2,11 +2,10 @@ import './App.css'
 import About from './pages/About'
 import Contacts from './pages/Contact' 
 import Projects from './pages/Projects'
-import { Routes, Route } from 'react-router-dom'
+import "aos/dist/aos.css";
 
 
 function App() {
-
   return (
     <div className="bg-black text-white">
       <section id="about">

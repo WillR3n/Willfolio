@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { Menu } from "lucide-react";
 import { Sheet, SheetTrigger, SheetContent } from "../ui/sheet";
 import { Button } from "../ui/button";
-import { Link } from "react-router-dom";
 
 export default function Header() {
   const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 830);
